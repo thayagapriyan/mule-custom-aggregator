@@ -32,18 +32,8 @@
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.14.1</version>
-                    <configuration>
-                        <release>17</release>
-                        <parameters>true</parameters>
-                    </configuration>
-                </plugin>
-                <plugin>
                     <groupId>org.mule.runtime.plugins</groupId>
                     <artifactId>mule-extensions-maven-plugin</artifactId>
-                    <version>1.6.2</version>
                     <extensions>true</extensions>
                     <executions>
                         <execution>
