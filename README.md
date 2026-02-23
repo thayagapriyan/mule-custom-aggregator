@@ -1,0 +1,1 @@
+set "JAVA_HOME=C:\Priyan\Softwares\jdk-11.0.29" && set "PATH=%JAVA_HOME%\bin;%PATH%" && mvn clean install
