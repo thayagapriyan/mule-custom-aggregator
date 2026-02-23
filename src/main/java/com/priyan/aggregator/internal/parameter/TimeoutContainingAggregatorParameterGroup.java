@@ -1,11 +1,11 @@
 package com.priyan.aggregator.internal.parameter;
 
-import co.priyan.aggregator.internal.parameter.AggregatorParameterGroup;
+import com.priyan.aggregator.internal.parameter.AggregatorParameterGroup;
 
 import java.util.concurrent.TimeUnit;
 
 import org.mule.sdk.api.annotation.param.Optional;
-import org.mule.sdk.api.annotation.param.Expression;
+import org.mule.sdk.api.annotation.Expression;
 import org.mule.sdk.api.annotation.param.display.DisplayName;
 import org.mule.sdk.api.annotation.param.display.Summary;
 import org.mule.sdk.api.annotation.param.Parameter;

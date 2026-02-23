@@ -1,6 +1,6 @@
 package com.priyan.aggregator.internal.config;
 
-import com.priyan.aggregator.internal.operations.GroupBasedAggregator;
+import com.priyan.aggregator.internal.operations.MuleCustomGroupBasedAggregatorOperations;
 
 import org.mule.sdk.api.annotation.Operations;
 import org.mule.sdk.api.annotation.param.Parameter;

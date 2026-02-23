@@ -1,0 +1,20 @@
+{
+  "name": "Mule Custom Aggregator",
+  "minMuleVersion": "4.9.2",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [
+        "com.priyan.aggregator.internal",
+        "com.priyan.aggregator.internal.config",
+        "com.priyan.aggregator.internal.operations",
+        "com.priyan.aggregator.internal.parameter",
+        "com.priyan.aggregator.internal.routes"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}

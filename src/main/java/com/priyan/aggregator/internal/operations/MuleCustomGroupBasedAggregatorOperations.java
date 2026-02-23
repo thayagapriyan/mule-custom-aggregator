@@ -1,11 +1,12 @@
 package com.priyan.aggregator.internal.operations;
 
 import com.priyan.aggregator.internal.config.MuleCustomAggregatorConfiguration;
-import com.priyan.aggregator.internal.config.MuleCustomGroupBasedAggregatorParameterGroup;
+import com.priyan.aggregator.internal.parameter.MuleCustomGroupBasedAggregatorParameterGroup;
 import com.priyan.aggregator.internal.routes.AggregationCompleteRoute;
 import com.priyan.aggregator.internal.routes.IncrementalAggregationRoute;
 
-
+import org.mule.sdk.api.annotation.Alias;
+import org.mule.sdk.api.annotation.param.ParameterGroup;
 import org.mule.sdk.api.client.ExtensionsClient;
 import org.mule.sdk.api.annotation.param.Config;
 import org.mule.sdk.api.annotation.param.Content;

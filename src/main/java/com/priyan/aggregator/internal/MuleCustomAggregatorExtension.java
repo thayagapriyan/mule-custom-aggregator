@@ -1,5 +1,7 @@
 package com.priyan.aggregator.internal;
 
+import com.priyan.aggregator.internal.config.MuleCustomAggregatorConfiguration;
+
 import org.mule.sdk.api.annotation.Extension;
 import org.mule.sdk.api.annotation.Configurations;
 import org.mule.sdk.api.annotation.dsl.xml.Xml;
