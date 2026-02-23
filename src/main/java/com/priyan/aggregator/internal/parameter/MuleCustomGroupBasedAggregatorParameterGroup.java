@@ -7,6 +7,7 @@ import org.mule.sdk.api.annotation.param.Expression;
 import org.mule.sdk.api.annotation.param.display.DisplayName;
 import org.mule.sdk.api.annotation.param.display.Summary;
 import org.mule.sdk.api.annotation.param.Parameter;
+import org.mule.sdk.api.meta.ExpressionSupport;
 
 
 public class MuleCustomGroupBasedAggregatorParameterGroup extends TimeoutContainingAggregatorParameterGroup {

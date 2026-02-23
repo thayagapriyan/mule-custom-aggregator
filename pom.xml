@@ -17,9 +17,13 @@
     </parent>
 
     <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
         <minMuleVersion>4.9.2</minMuleVersion>
         <munit.version>3.5.0</munit.version>
-        <munit.extensions.maven.plugin.version>1.2.0</munit.extensions.maven.plugin.version>
+        <mule.sdk.api.version>0.11.0</mule.sdk.api.version>
+        <munit.extensions.maven.plugin.version>1.6.0</munit.extensions.maven.plugin.version>
         <munit.input.directory>src/test/munit</munit.input.directory>
         <munit.output.directory>${basedir}/target/test-mule/munit</munit.output.directory>
         <maven.resources.version>3.0.2</maven.resources.version>
@@ -28,16 +32,16 @@
 
     <build>
         <plugins>
+            
             <plugin>
-                <groupId>org.mule.runtime.plugins</groupId>
-                <artifactId>mule-extensions-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>default-extension-validate</id>
-                        <phase>none</phase>
-                    </execution>
-                </executions>
-            </plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.14.1</version>
+            <configuration>
+                <release>17</release>
+                <parameters>true</parameters> 
+            </configuration>
+        </plugin>
         </plugins>
         <pluginManagement>
             <plugins>
@@ -89,5 +93,19 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <repositories>
+    <repository>
+        <id>mulesoft-releases</id>
+        <name>MuleSoft Releases Repository</name>
+        <url>https://repository.mulesoft.org/nexus/content/repositories/releases/</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+</repositories>
 
 </project>

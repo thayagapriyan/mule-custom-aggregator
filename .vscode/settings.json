@@ -1,10 +1,21 @@
 {
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        ".mule": true
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".mule": true
+  },
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "C:\\Priyan\\Softwares\\jdk-11.0.29"
+    },
+    {
+      "name": "JavaSE-17",
+      "path": "C:\\AStudio\\plugins\\org.mule.tooling.jdk.win32.x86_64_1.4.1",
+      "default": true
     }
+  ]
 }
