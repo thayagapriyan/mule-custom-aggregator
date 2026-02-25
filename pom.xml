@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.priyan.aggregator</groupId>
     <artifactId>mule-custom-aggregator</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>mule-extension</packaging>
     <name>Mule Custom Aggregator Extension</name>
 
