@@ -1,7 +1,10 @@
 C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\config\MuleCustomAggregatorConfiguration.java
+C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\connection\HttpConnectionProvider.java
+C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\connection\HttpConnectionWrapper.java
 C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\MuleCustomAggregatorExtension.java
 C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\operations\MuleCustomGroupBasedAggregatorOperations.java
 C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\parameter\AggregatorParameterGroup.java
+C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\parameter\HttpRequestParameterGroup.java
 C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\parameter\MuleCustomGroupBasedAggregatorParameterGroup.java
 C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\parameter\TimeoutContainingAggregatorParameterGroup.java
 C:\Priyan\VSC\MULE\mule-custom-aggregator\src\main\java\com\priyan\aggregator\internal\routes\AggregationCompleteRoute.java

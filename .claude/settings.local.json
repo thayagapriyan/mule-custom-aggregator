@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(jar tf:*)"
+      "Bash(jar tf:*)",
+      "Bash(git log --grep=\"http\" -i --oneline)",
+      "Bash(xargs wc -l)",
+      "Bash(mvn dependency:tree)",
+      "Bash(mvn clean package -DskipTests)"
     ]
   }
 }

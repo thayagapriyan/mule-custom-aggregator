@@ -28,6 +28,15 @@
         <exchange.mule.maven.plugin.version>0.0.18</exchange.mule.maven.plugin.version>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.mule.runtime</groupId>
+            <artifactId>mule-service-http-api</artifactId>
+            <version>4.9.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <pluginManagement>
             <plugins>

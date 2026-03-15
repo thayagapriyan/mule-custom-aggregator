@@ -9,7 +9,8 @@
         "com.priyan.aggregator.internal.config",
         "com.priyan.aggregator.internal.operations",
         "com.priyan.aggregator.internal.parameter",
-        "com.priyan.aggregator.internal.routes"
+        "com.priyan.aggregator.internal.routes",
+        "com.priyan.aggregator.internal.connection"
       ]
     }
   },
